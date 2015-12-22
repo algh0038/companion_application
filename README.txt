@@ -1,4 +1,4 @@
-Companion Android Application for Hip Angle Sensor [EE4591W: Senior Design].
+Companion Android Application for Hip Angle Sensor [Senior Design].
 The application will communicate with the UUID specified in the 'values' file, using GATT profile as specified by adafruit (the module chip used). Upon connection, each data point received from the physical device is saved in the internal storage of the smartphone, under /GATT/savedValues.txt && /GATT/lastValue.txt. These values are checked every 100 miliseconds, which are updated to the user interface. 
 Pressing "Analyze" button will analyze the data (average and standard deviation of the angle).
 Pressing "Connect/Disconnect" will search for the specified UUID and connect/disconnect.
